@@ -1,0 +1,82 @@
+body {
+    font-family: "Kanit", sans-serif;
+    background-image: url('https://img.freepik.com/free-photo/young-man-holding-hands-girlfriend_1262-2343.jpg?t=st=1728065166~exp=1728068766~hmac=0ebbc86f92ee5ef2aa7320dfa643e0c64f0acab349931c86ce0ca92cd0672ad6&w=1060');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    font-family: "Kanit", sans-serif;
+    color: #0080ff;
+    text-align: center;
+    font-size: 250%;
+    margin-bottom: -6%;
+}
+
+h2 {
+    font-family: "Kanit", sans-serif;
+    color: #ffffff;
+    text-align: center;
+}
+
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+}
+
+input[type="number"] {
+    width: calc(100% - 10px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.sub-title {
+    margin-top: 50px; 
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+/* ผลลัพธ์ */
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    color: #ec0000;
+}
